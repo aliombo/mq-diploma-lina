@@ -17,7 +17,7 @@
   padding: 0;
 }
 
-.header{
+.header {
   background-image: url(../images/banner-bg.jpg);
   background-repeat: no-repeat;
   background-position: center center;
@@ -29,7 +29,7 @@
   padding-bottom: 160px;
 }
 
-.header::after{
+.header::after {
   content:"";
   background-color:#000000;
   position:absolute;
@@ -101,9 +101,20 @@
 	margin-right: auto;
 	margin-top: 66px;
 	margin-bottom: 64px;
-	width: 1200px;
+	max-width: 1200px;
 	}
 
+.section-now-trend {
+  display: flex;
+  width: 1200px;
+  
+}
+
+.articles-now-trend {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+}
 
 .main-posts{
   box-sizing: border-box;
@@ -132,7 +143,7 @@
   flex-direction: column;
   }
 
-.topic-article{
+.topics-article{
   display:flex;
 }
 
@@ -145,13 +156,12 @@
   margin-left: 20px;
 }
 
-.topic-a{
+.topic {
   text-decoration: none;
   font-family: OpenSans-Bold;
   font-size: 14px;
   color: #b59f5b;
-  text-transform: uppercase;
-  
+  text-transform: uppercase; 
 }
 
 .date-author{
