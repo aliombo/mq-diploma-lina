@@ -46,11 +46,11 @@
 
 .header-container {
   display: flex;
-	max-width: 1200px;
+  max-width: 1200px;
   justify-content: space-between;
-	align-items: center;
-	margin-left: auto;
-	margin-right: auto;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .header-title{
@@ -58,16 +58,16 @@
 }
 .header-title-text {
  font-size: 45px;
-  line-height:1.6;
-	max-width: 700px;
-  margin-left: auto;
-  margin-right: auto;
-  color: white;
-  text-align: center;
-  font-family: OpenSans-Bold;
-  font-weight: bold;
-  text-transform: uppercase;
-  }
+ line-height:1.6;
+ max-width: 700px;
+ margin-left: auto;
+ margin-right: auto;
+ color: white;
+ text-align: center;
+ font-family: OpenSans-Bold;
+ font-weight: bold;
+ text-transform: uppercase;
+}
 .logo{
   display:block;
   width: 180px;
@@ -103,7 +103,7 @@
   position: relative;
   box-sizing: border-box;
   margin-top: 55px;
- }
+}
 
 .now-trend {
   margin-bottom: 35px;
@@ -151,7 +151,7 @@
 
 
 .article-trend:nth-child(n + 2){
-margin-left: 0.3%;
+  margin-left: 0.3%;
 }
 
 .trend1 {
@@ -190,6 +190,10 @@ margin-left: 0.3%;
 
 }
 
+.title-name-trend:hover {
+  color: #b59f5b;
+}
+
 .title-name-trend {
   text-decoration: none;
   font-size: 20px;
@@ -207,14 +211,14 @@ margin-left: 0.3%;
   margin-top: 66px;
   margin-bottom: 64px;
   max-width: 1200px;
-  }
+}
 
 .main-posts{
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
   width: 780px;
-  }
+}
 
 .main-post{
   display: flex;
@@ -234,7 +238,7 @@ margin-left: 0.3%;
   display: flex;
   margin-left: 30px;
   flex-direction: column;
-  }
+}
 
 .topics-article{
   display:flex;
@@ -286,11 +290,11 @@ margin-left: 0.3%;
 
 .title-name-link{
   text-decoration: none;
-	font-size: 20px;
-	line-height: 1.2;
-	color: #0f0d0e;
-	font-family: OpenSans-Bold;
-	text-transform: uppercase;
+  font-size: 20px;
+  line-height: 1.2;
+  color: #0f0d0e;
+  font-family: OpenSans-Bold;
+  text-transform: uppercase;
 }
 
 .aside{
@@ -309,14 +313,14 @@ margin-left: 0.3%;
 
 .new-posts-sidebar::after{
   content: "";
-	position: absolute;
+  position: absolute;
   height: 5px;
-	width: 60px;
-	border-bottom: 3px solid #e1d9bd;
-	display: block;
-	margin: auto;
+  width: 60px;
+  border-bottom: 3px solid #e1d9bd;
+  display: block;
+  margin: auto;
   left: 0;
-	right: 0;
+  right: 0;
 }
 
 
@@ -355,22 +359,22 @@ margin-left: 0.3%;
 }
 
 .aside-text-title-link{
-   text-decoration: none;
-  text-transform: uppercase;
-  font-family: OpenSans-Bold;
-  font-size: 14px;
-  line-height: 1.3;
-  display: inline-block;
-  color: #000000;
+ text-decoration: none;
+ text-transform: uppercase;
+ font-family: OpenSans-Bold;
+ font-size: 14px;
+ line-height: 1.3;
+ display: inline-block;
+ color: #000000;
 }
 
 .aside-form-section{
  margin-top: 60px;
-  margin-bottom: 50px;
+ margin-bottom: 50px;
 }
 
 .search-group {
-   display: flex;
+ display: flex;
 }
 
 .field-search{
@@ -402,6 +406,10 @@ margin-left: 0.3%;
 
 .button-a:focus {
   outline: none;
+}
+
+.button-a:hover::before {
+  background-color: #000000;
 }
 
 .button-a::before {
@@ -436,7 +444,7 @@ margin-left: 0.3%;
   position: absolute;
   padding-bottom: 12px;
   left: 0;
-	right: 0;
+  right: 0;
   margin: auto;
   display: block;
 }
@@ -466,6 +474,10 @@ margin-left: 0.3%;
 
 .button-b:focus {
   outline: none;
+}
+
+.button-b:hover {
+  background-color: #000000;
 }
 
 .field-email{
@@ -506,16 +518,16 @@ margin-left: 0.3%;
 
 .subtitle-tags::after {
   content: "";
-	position: absolute;
-	width: 64px;
-	height: 1px;
-	border-bottom: 3px solid;
+  position: absolute;
+  width: 64px;
+  height: 1px;
+  border-bottom: 3px solid;
   padding-bottom: 12px;
-	color: #e1d9bd;
-	display: block;
-	margin: auto;
+  color: #e1d9bd;
+  display: block;
+  margin: auto;
   left: 0;
-	right: 0;
+  right: 0;
   
 }
 
@@ -541,6 +553,10 @@ margin-left: 0.3%;
   padding: 8px 12px; 
 }
 
+.list-tags-item-link:hover{
+  border-color: #b59f5b;
+}
+
 .list-tags{
   display: flex;
   flex-wrap: wrap;
@@ -552,24 +568,24 @@ margin-left: 0.3%;
   position: absolute;
   border-bottom: 3px solid #e1d9bd;
   width: 64px;
-	height: 3px;
+  height: 3px;
   display: block;
   left: 0;
-	right: 0;
+  right: 0;
   margin: auto;
   padding-bottom: 12px;
 }
 
 .topic-count{
  width: 270px;
-  margin-top: 40px;
+ margin-top: 40px;
 }
 
 .topic-item {
 	list-style-type: none;
 	border-bottom: solid 1px #eeeeee;
 	padding-bottom: 15px;
-	}
+}
 
 .topic-item:nth-child(n+2) {
 	padding-top: 17px;
@@ -608,6 +624,7 @@ margin-left: 0.3%;
   position: relative;
   box-sizing: border-box;
   display: block;
+  margin-bottom: 60px;
 }
 
 .our-products {
@@ -654,7 +671,61 @@ margin-left: 0.3%;
 }
 
 .product__body {
-  
+outline: solid;
+outline-offset: 20px;
+outline-color: #b59f5b ;
+height: 200px;
+padding-top: 20px;
+}
+
+.product__title {
+  font-family: OpenSans-Bold;
+  text-transform: uppercase;
+
+}
+
+.product__description {
+  font-family: OpenSans-Regular;
+  margin-top: 3px;
+  font-size: 15px;
+}
+
+.product__prices {
+  display: flex;
+  flex-direction: column;
+  font-family: opensans-bold, Arial, sans-serif;
+}
+
+.product__price__old {
+  text-decoration: line-through;
+  font-family: opensans-bold, Arial, sans-serif;
+  font-size: 14px;
+}
+
+.product__price {
+  font-family: opensans-bold;
+  font-size: 20px;
+}
+.product__button {
+  font-family: opensans-bold, Arial, sans-serif;
+  border: none;
+  width: 140px;
+  height: 50px;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-size: 14px;
+  background-color: #b59f5b; 
+}
+
+.product__button:hover {
+ background-color: #000000;
+}
+
+.product__footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 30px;
 }
 
 .footer{
@@ -662,7 +733,7 @@ margin-left: 0.3%;
 }
 
 .socials {
-   display: flex;
+  display: flex;
   max-width: 1200px;
   background-color: #f4f7f6;
   margin-left:auto;
@@ -695,7 +766,7 @@ margin-left: 0.3%;
 }
 
 .social-link-twitter{
-   background-image: url(../svg/004-twitter.svg);
+ background-image: url(../svg/004-twitter.svg);
 }  
 
 .social-link-pinterest{
@@ -709,7 +780,7 @@ margin-left: 0.3%;
 .social-link-instagram{
   background-image: url(../svg/005-instagram.svg);
 }
-  
+
 .social-link-tumblr{
   background-image: url(../svg/003-tumblr.svg);
 }
