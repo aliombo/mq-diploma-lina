@@ -849,6 +849,15 @@ html {
   box-sizing: border-box;
 }
 
+ .header-container {
+  box-sizing: border-box;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5%;
+}
+
+
 
 
 
