@@ -52,6 +52,7 @@
 .header-title{
   margin-top:90px;
 }
+
 .header-title-text {
  font-size: 45px;
  line-height:1.6;
@@ -64,6 +65,7 @@
  font-weight: bold;
  text-transform: uppercase;
 }
+
 .logo{
   display:block;
   width: 180px;
@@ -813,6 +815,23 @@ padding-top: 20px;
   margin-right: auto;
 }
 
+.header-title{
+  margin-top:90px;
+}
+
+.header-title-text {
+ font-size: 45px;
+ line-height:1.6;
+ max-width: 700px;
+ margin-left: auto;
+ margin-right: auto;
+ color: white;
+ text-align: center;
+ font-family: OpenSans-Bold;
+ font-weight: bold;
+ text-transform: uppercase;
+}
+
 
 
 @media (min-width: 641px) and (max-width: 1199px) {
@@ -830,9 +849,24 @@ padding-top: 20px;
   width: 100%;
   margin-left: auto;
   margin-right: auto;
-  padding: 5%;
 }
 
+.header-title{
+  margin-top:90px;
+}
+
+.header-title-text {
+ font-size: 45px;
+ line-height:1.6;
+ max-width: 700px;
+ margin-left: auto;
+ margin-right: auto;
+ color: white;
+ text-align: center;
+ font-family: OpenSans-Bold;
+ font-weight: bold;
+ text-transform: uppercase;
+}
 
 }
 
@@ -854,9 +888,26 @@ html {
   width: 100%;
   margin-left: auto;
   margin-right: auto;
-  padding: 5%;
+  
 }
 
+.header-title{
+  margin-top: 6% auto 0;
+  box-sizing: border-box;
+}
+
+.header-title-text {
+ font-size: 45px;
+ line-height:1.6;
+ max-width: 700px;
+ margin-left: auto;
+ margin-right: auto;
+ color: white;
+ text-align: center;
+ font-family: OpenSans-Bold;
+ font-weight: bold;
+ text-transform: uppercase;
+}
 
 
 
