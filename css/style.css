@@ -47,6 +47,11 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  box-sizing: border-box;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+
 }
 
 .header-title{
@@ -805,14 +810,11 @@ padding-top: 20px;
 .header {
   background-image: url(../images/banner-bg.jpg);
   padding-bottom: 130px;
- padding-top: 25px;
+  padding-top: 25px;
 }
 
  .header-container {
-  box-sizing: border-box;
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
+ 
 }
 
 .header-title{
@@ -832,26 +834,23 @@ padding-top: 20px;
  text-transform: uppercase;
 }
 
+}
+
 
 
 @media (min-width: 641px) and (max-width: 1199px) {
  html {
     font-size: 85%;/*62.5%; 10px*/
 }
-.header{
+.header {
   background-image: url(../images/banner-bg-tablet.jpg);
-  width: 100%
-  
 }
 
  .header-container {
-  box-sizing: border-box;
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
+  
 }
 
-.header-title{
+.header-title {
   margin-top:90px;
 }
 
@@ -876,22 +875,15 @@ html {
 }
 
 .header {
-  background-image: url(../images/banner-mobile.jpg);\
-   padding-bottom: 5%;/*8.125rem;*//*130px;*/
-   padding-top: 5%;/*1.5625rem;*//*25px;*/
-  width: 100vw;
-  box-sizing: border-box;
+  background-image: url(../images/banner-mobile.jpg);
 }
 
  .header-container {
-  box-sizing: border-box;
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
+ flex-direction: column-reverse;
   
 }
 
-.header-title{
+.header-title {
   margin-top: 6% auto 0;
   box-sizing: border-box;
 }
@@ -908,9 +900,5 @@ html {
  font-weight: bold;
  text-transform: uppercase;
 }
-
-
-
-
 
 }
