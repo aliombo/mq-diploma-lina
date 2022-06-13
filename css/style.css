@@ -127,7 +127,6 @@
 
 .articles-now-trend {
   display: flex;
-  min-width: 1200px;
 }
 
 .article-trend {
@@ -814,6 +813,7 @@ width: 180px;
   margin-top: 55px;
 }
 
+
 .content {
   display: flex;
   margin-left: auto;
@@ -919,14 +919,12 @@ html {
 
 .section-now-trend {
   display: block;
-  min-width: 640px;
   position: relative;
   box-sizing: border-box;
   margin-top: 55px;
 }
 
 .articles-now-trend {
-  display: flex;
   flex-direction: column;
 }
 
@@ -944,6 +942,17 @@ html {
 
 .trend4 {
   margin-bottom: 3px;
+}
+
+.article-trend {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size:cover;
+  background-color:#000000;
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  height: 320px;
 }
 
 .content {
