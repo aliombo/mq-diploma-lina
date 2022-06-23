@@ -245,7 +245,6 @@
 
 .aside {
   display: flex;
-  width: 270px;
   font-family: OpenSans-Regular;
   box-sizing: border-box;
   position: relative;
@@ -325,7 +324,6 @@
 .field-search {
   box-sizing: border-box;
   height: 48px;
-  width: 220px;
   border: none;
   background-color: #f4f7f6;
   font-family: OpenSans-Regular;
@@ -444,7 +442,6 @@
 
 .tags {
   display: block;
-  width: 270px;
   margin-top: 60px;
 }
 
@@ -823,8 +820,6 @@
     font-size: 20px;
   }
 
-  
-
   .products-section {
     min-width: 1200px;
   }
@@ -841,6 +836,15 @@
 
   .aside {
     margin-left: 80px;
+    width: 270px;
+  }
+
+  .field-search {
+    min-width: 220px;
+  }
+
+  .tags {
+    width: 270px;
   }
 }
 
@@ -949,15 +953,23 @@
 
   .lead {
     margin-top: 10px;
-
   }
 
-  .aside {
-    margin: auto
+  .search {
+    width: 100%;
+  }
+
+  .field-search {
+    width: 100%;
+  }
+
+  .tags {
+    width:100%;
   }
 
   .products-section {
     max-width: 640px;
+    margin-top: 40px;
   }
 
   .products {
