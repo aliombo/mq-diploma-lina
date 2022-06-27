@@ -906,6 +906,15 @@ bottom: 0;
   .menu-list {
     display: none;
   }
+
+  .header-title {
+    margin-top: 80px;
+  }
+
+  .header-title-text {
+    font-size: 40px;
+    max-width: 620px;
+  }
   .products {
     flex-wrap: wrap;
   }
@@ -1043,7 +1052,7 @@ bottom: 0;
 
 /* popup-  */
 
-.popup_hidden {
+.popup_hidden- {
   display: none;
   position: fixed;
   top: 0;
