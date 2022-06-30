@@ -1252,7 +1252,7 @@
   vertical-align: middle;
   width: 18px;
   height: 18px;
-  background-image: url(../SVG/form-empty-circle.svg);
+  background-image: url(../svg/form-empty-circle.svg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: 18px;
@@ -1323,15 +1323,5 @@
   height: 1px;
   clip: rect(1px, 1px, 1px, 1px);
   position: absolute;
-}
-
-.pp {
-  display: none;
-  position: absolute;
-  z-index: 100;
-  top: 0;
-  left: 0;
-  width: 100%;
-  opacity: 0.6;
 }
 
