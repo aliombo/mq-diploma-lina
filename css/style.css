@@ -1053,7 +1053,7 @@ bottom: 0;
 /* popup */
 
 .popup_hidden {
-  display: flex;
+  display: none;
   position: fixed;
   top: 0;
   left: 0;
