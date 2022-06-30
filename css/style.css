@@ -57,10 +57,9 @@
 
 .logo {
   box-sizing: border-box;
-
 }
 
-.burger_button {
+.burger-button {
   display: flex;
   position: relative;
   width: 30px;
@@ -71,29 +70,29 @@
   padding: 0;
 }
 
-.burger_button::after, .burger_button::before {
-content: " ";
-position: absolute;
-background-color: #ffffff;
-border-radius: 5px;
-width: 100%;
-height: 4px;
-left: 0;
+.burger-button::after, .burger-button::before {
+  content: " ";
+  position: absolute;
+  background-color: #ffffff;
+  border-radius: 5px;
+  width: 100%;
+  height: 4px;
+  left: 0;
 }
 
-.burger_button-label {
-position: absolute;
-background-color: #ffffff;
-border-radius: 5px;
-width: 100%;
-height: 4px;
-left: 0;
-top: 10px;
-text-indent: -9999px;
+.burger-button-label {
+  position: absolute;
+  background-color: #ffffff;
+  border-radius: 5px;
+  width: 100%;
+  height: 4px;
+  left: 0;
+  top: 10px;
+  text-indent: -9999px;
 }
 
-.burger_button::after {
-bottom: 0;
+.burger-button::after {
+  bottom: 0;
 }
 
 .menu-list {
@@ -157,8 +156,6 @@ bottom: 0;
   background-color: #000000;
   position: relative;
   z-index: 1;
-  width: 24.7%;
-  height: 320px;
 }
 
 .trend1 {
@@ -790,7 +787,7 @@ bottom: 0;
     width: 180px;
   }
 
-  .burger_button {
+  .burger-button {
     display: none;
   }
 
@@ -800,6 +797,11 @@ bottom: 0;
     position: relative;
     box-sizing: border-box;
     margin-top: 55px;
+  }
+
+  .article-trend {
+    width: 24.7%;
+    min-height: 320px;
   }
 
   .now-trend-subtitle {
@@ -824,7 +826,6 @@ bottom: 0;
   }
 
   .main-posts {
-    box-sizing: border-box;
     display: flex;
     flex-direction: column;
     width: 780px;
@@ -884,7 +885,7 @@ bottom: 0;
 @media (min-width: 641px) and (max-width: 1199px) {
   .header {
     background-image: url(../images/banner-bg-tablet.jpg);
-    padding-bottom: 230px;
+    padding-bottom: 120px;
   }
 
   .header-container {
@@ -895,7 +896,7 @@ bottom: 0;
     padding-top: 40px;
   }
 
-  .burger_button {
+  .burger-button {
     margin-top: 10px;
   }
    
@@ -915,9 +916,78 @@ bottom: 0;
     font-size: 40px;
     max-width: 620px;
   }
-  .products {
+
+  .section-now-trend {
+    margin-top: 40px;
+  }
+
+  .articles-now-trend {
     flex-wrap: wrap;
   }
+  
+  .article-trend {
+    width: 49.7%;
+    min-height: 247px;
+  }
+
+  .article-trend:nth-child(2n) {
+    margin-left: 3px;
+  }
+
+  .article-trend:nth-child(n - 2) {
+    margin-bottom: 3px;
+}
+
+.content {
+  display: flex;
+  margin-top: 50px;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+ .main-posts {
+  display: flex;
+  box-sizing: border-box;
+  flex-direction: column;
+  width: 60%;
+ }
+
+ .main-post {
+  border-bottom: 2px solid #eeeeee;
+}
+
+.main-post:nth-child(n + 2) {
+  margin-top: 40px;
+}
+
+.main-post-image {
+  width: 100%;
+}
+
+.lead {
+  margin-bottom: 30px;
+}
+
+ .aside {
+  margin-left: 40px;
+  width: 40%;
+ }
+
+ .products-section {
+  margin-top: 40px;
+  margin-left: 25px;
+  margin-right: 25px;
+ }
+
+ .products {
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px;
+ }
+
+ .product:nth-child(n + 3) {
+  margin-top: 35px;
+}
 }
 
 @media (max-width: 640px) {
@@ -929,7 +999,7 @@ bottom: 0;
     display: none;
   }
 
-  .burger_button {
+  .burger-button {
    margin-top: 25px;
    margin-right: 20px;
   }
@@ -976,14 +1046,8 @@ bottom: 0;
   }
 
   .article-trend {
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    background-color: #000000;
-    position: relative;
-    z-index: 1;
     width: 100%;
-    max-height: 230px;
+    min-height: 230px;
   }
 
   .title-name-trend {
@@ -1052,7 +1116,7 @@ bottom: 0;
 
 /* popup */
 
-.popup_hidden {
+.popup-hidden {
   display: none;
   position: fixed;
   top: 0;
@@ -1064,7 +1128,7 @@ bottom: 0;
   z-index: 999;
 }
 
-.popup_hidden::before {
+.popup-hidden::before {
   display: none;
   content: " ";
   background-color: #000000;
@@ -1076,7 +1140,7 @@ bottom: 0;
   opacity: 0.47;
 }
 
-.popup_container {
+.popup-container {
   display: none;
   width: 390px;
   box-sizing: border-box;
@@ -1224,7 +1288,7 @@ bottom: 0;
   z-index: 999;
 }
 
-.popup_buttontext {
+.popup-buttontext {
   width: 1px;
   height: 1px;
   clip: rect(1px, 1px, 1px, 1px);
