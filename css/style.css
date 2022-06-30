@@ -1259,7 +1259,7 @@
   margin-right: 10px;
 }
 .popup-radiobutton:checked ~ .radiobutton-text::before {
-  background-image: url(../SVG/form-circle.svg);
+  background-image: url(../svg/form-circle.svg);
 }
 
 .popup-radiobutton {
@@ -1308,7 +1308,7 @@
   height: 1em;
   font-size: 18px;
   position: absolute;
-  background-image: url(../SVG/form-x.svg);
+  background-image: url(../svg/form-x.svg);
   background-repeat: no-repeat;
   background-size: cover;
   background-color: transparent;
