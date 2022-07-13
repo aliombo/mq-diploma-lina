@@ -162,6 +162,11 @@
   z-index: 1;
 }
 
+.article-trend {
+  display: flex;
+  align-items: flex-end;
+}
+
 .trend1 {
   background-image: url("../images/trend1.jpg");
 }
@@ -191,7 +196,9 @@
 }
 
 .content-trend {
-  position: absolute;
+  width: 100%;
+  position: relative;
+  align-items: flex-end;
   bottom: 0;
   padding: 30px 20px 30px 30px;
   margin: 0 20px 20px 20px;
@@ -1107,7 +1114,11 @@ h3.aside-text-title {
 
   .articles-now-trend {
     flex-direction: column;
+    display: flex;
+    align-items: flex-end;
   }
+
+
 
    .trend1, .trend2 , .trend3, .trend4  {
     margin-bottom: 3px;
@@ -1182,7 +1193,7 @@ h3.aside-text-title {
   .products {
     flex-direction: column;
     align-items: center;
-    padding: 40px;
+    padding: 0px 35px;
   }
 
   .product:nth-child(n + 2) {
