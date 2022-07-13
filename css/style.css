@@ -349,10 +349,12 @@
   text-decoration: none;
   text-transform: uppercase;
   font-family: OpenSans-Bold;
+  color: #000000;
+}
+
+h3.aside-text-title {
   font-size: 14px;
   line-height: 1.3;
-  display: block;
-  color: #000000;
 }
 
 .aside-text-title-link:hover {
@@ -401,7 +403,7 @@
 .button-a::before {
   content: "";
   position: absolute;
-  width: 48px;
+  width: 40px;
   height: 48px;
   background-image: url("../svg/search.svg");
   background-repeat: no-repeat;
@@ -415,7 +417,7 @@
 
 .mailing-subtitle {
   position: relative;
-  font-size: 14px;
+  font-size: 16px;
   font-family: OpenSans-Bold;
   text-transform: uppercase;
   color: #0f0d0e;
@@ -428,7 +430,7 @@
   height: 1px;
   border-bottom: 3px solid #b59f5b;
   position: absolute;
-  padding-bottom: 12px;
+  padding-bottom: 8px;
   left: 0;
   right: 0;
   margin: auto;
@@ -500,7 +502,7 @@
   width: 64px;
   height: 1px;
   border-bottom: 3px solid;
-  padding-bottom: 12px;
+  padding-bottom: 8px;
   color: #b59f5b;
   display: block;
   margin: auto;
@@ -528,7 +530,7 @@
   font-family: OpenSans-Bold;
   font-size: 12px;
   border: 3px solid #eeeeee;
-  padding: 8px 12px;
+  padding: 4px 12px;
 }
 
 .list-tags-item-link:hover {
@@ -551,7 +553,7 @@
   left: 0;
   right: 0;
   margin: auto;
-  padding-bottom: 12px;
+  padding-bottom: 8px;
 }
 
 .topic-count {
@@ -640,23 +642,23 @@
 }
 
 .product {
-  width: 300px;
   display: flex;
   flex-direction: column;
 }
 
 .product__body {
-  outline: solid;
-  outline-offset: 20px;
-  outline-color: #b59f5b;
-  height: 200px;
+  padding: 30px 18px 20px;
+  border: 3px solid #b59f5b;
   padding-top: 20px;
+  margin-top: -35px;
+  margin-left: -20px;
+  margin-right: -20px;
 }
 
 .product__title {
   font-family: OpenSans-Bold;
   text-transform: uppercase;
-
+  margin-top: 18px;
 }
 
 .product__description {
@@ -730,7 +732,6 @@
 
 .socials {
   list-style-type: none;
-  display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
@@ -898,6 +899,10 @@
     box-sizing: border-box;
   }
 
+  .product {
+    width: 300px;
+  }
+
   .aside {
     margin-left: 80px;
     width: 270px;
@@ -905,6 +910,10 @@
 
   .field-search {
     min-width: 220px;
+  }
+
+  .mailing-subtitle {
+    font-size: 14px;
   }
 
   .tags {
@@ -972,9 +981,10 @@
 
 .content {
   display: flex;
+  box-sizing: border-box;
   margin-top: 50px;
-  margin-left: 25px;
-  margin-right: 25px;
+  padding-left: 25px;
+  padding-right: 25px;
 }
 
  .main-posts {
@@ -999,6 +1009,11 @@
 .lead {
   margin-bottom: 30px;
 }
+
+.topics-article {
+  margin-top: 10px;
+}
+
 
  .aside {
   margin-left: 40px;
@@ -1025,9 +1040,24 @@
   padding: 20px;
  }
 
+ .product {
+  width: 46%;
+ }
+
+ .product-img {
+  width: 100%;
+ }
+
  .product:nth-child(n + 3) {
   margin-top: 35px;
 }
+
+.footer {
+  box-sizing: border-box;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
 }
 
 @media (max-width: 640px) {
@@ -1097,8 +1127,8 @@
     width: 100%;
     margin-top: 44px;
     box-sizing: border-box;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
   }
 
   .main-posts {
@@ -1111,9 +1141,17 @@
     margin-bottom: 40px;
   }
 
+  .main-post {
+    border-bottom: 2px solid #eeeeee;
+  }
+
   .main-post-image {
     width: 100%;
 
+  }
+
+  .topics-article {
+    margin-top: 10px;
   }
 
   .title-name-link {
@@ -1122,6 +1160,7 @@
 
   .lead {
     margin-top: 10px;
+    margin-bottom: 30px;
   }
 
   .search {
@@ -1137,17 +1176,28 @@
   }
 
   .products-section {
-    max-width: 640px;
     margin-top: 40px;
   }
 
   .products {
     flex-direction: column;
     align-items: center;
+    padding: 40px;
   }
 
   .product:nth-child(n + 2) {
     margin-top: 40px;
+  }
+
+  .product-img {
+   width: 100%;
+   min-height: 285px;
+  }
+
+  .footer {
+    box-sizing: border-box;
+    padding-left: 15px;
+    padding-right: 15px;
   }
 }
 

@@ -214,7 +214,7 @@
               </div>
               <div class="aside-text">
                 <time class="aside-text-time" datetime="2021-02-08">14 июня 2019</time>
-                <h3><a href="#0" class="aside-text-title-link">10 мест, ради которых стоит проснуться</a></h3>
+                <h3 class="aside-text-title"><a href="#0" class="aside-text-title-link">10 мест, ради которых стоит проснуться</a></h3>
               </div>
             </article>
 
@@ -321,9 +321,12 @@
     </header>
     <div class="products">
       <article class="product">
-        <pictire class="product__imgbox">
-          <img class="product__img" src="images/shop-item-desk1.jpg" alt="Превью товара">
-          </picture>
+        <picture class="product-imgbox">
+          <source media="(min-width: 1200px)" srcset="images/shop-item-desk1.jpg">
+          <source media="(min-width: 361px) and (max-width: 1199px)" srcset="images/shop-item-tablet1.jpg">
+          <source media="(max-width: 360px)" srcset="images/shop-item-mobile1.jpg">
+          <img class="product-img" src="images/shop-item-desk1.jpg" alt="Подушки на диван">
+        </picture>
           <div class="product__body">
             <div class="product__content">
               <h3 class="product__title">Подушки на диван</h3>
@@ -347,8 +350,11 @@
           </div>
       </article>
       <article class="product">
-        <picture class="product__imgbox">
-          <img class="product__img" src="images/shop-item-desk2.jpg" alt="Превью товара">
+        <picture class="product-imgbox">
+          <source media="(min-width: 1200px)" srcset="images/shop-item-desk2.jpg">
+          <source media="(min-width: 361px) and (max-width: 1199px)" srcset="images/shop-item-tablet2.jpg">
+          <source media="(max-width: 360px)" srcset="images/shop-item-mobile2.jpg">
+          <img class="product-img" src="images/shop-item-desk2.jpg" alt="Кукла «зайчик»">
         </picture>
         <div class="product__body">
           <div class="product__content">
@@ -370,11 +376,11 @@
         </div>
       </article>
       <article class="product">
-        <picture class="product__imgbox">
-          <img class="product__img" src="images/shop-item-desk3.jpg" alt="Превью товара">
-          <source srcset="images/shop-item-desk3.jpg" media="(min-width: 1200px)">
-          <source srcset="images/shop-item-tablet3.jpg" media="(min-width: 641px) and (max-width:1199px)">
-          <source srcset="images/shop-item-mobile3.jpg" media="(min-width:1200px)">
+        <picture class="product-imgbox">
+          <source media="(min-width: 1200px)" srcset="images/shop-item-desk3.jpg">
+          <source media="(min-width: 361px) and (max-width: 1199px)" srcset="images/shop-item-tablet3.jpg">
+          <source media="(max-width: 360px)" srcset="images/shop-item-mobile3.jpg">
+          <img class="product-img" src="images/shop-item-desk3.jpg" alt="шестиугольная рамка">
         </picture>
         <div class="product__body">
           <div class="product__content">
