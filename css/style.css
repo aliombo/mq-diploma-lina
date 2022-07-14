@@ -1,12 +1,12 @@
 @font-face {
-  font-family: OpenSans-Regular;
+  font-family: "OpenSans-Regular";
   src: url(../fonts/OpenSans-Regular.woff);
   font-weight: 400;
   font-style: normal;
 }
 
 @font-face {
-  font-family: OpenSans-Bold;
+  font-family: "OpenSans-Bold";
   src: url(../fonts/OpenSans-Bold.woff);
   font-weight: 700;
   font-style: normal;
@@ -794,6 +794,8 @@ h3.aside-text-title {
   color: #999999;
   font-weight: 700;
   text-align: center;
+  padding-top: 20px;
+  padding-bottom: 15px;
 }
 
 .popup-wrapper {
@@ -839,6 +841,10 @@ h3.aside-text-title {
     position: relative;
     box-sizing: border-box;
     margin-top: 55px;
+  }
+
+  .now-trend::after {
+    height: 35px;
   }
 
   .article-trend {
@@ -899,10 +905,8 @@ h3.aside-text-title {
   }
 
   .products {
-    justify-content: space-between;
     max-width: 1170px;
     justify-content: space-between;
-    padding: 20px;
     margin-left: auto;
     margin-right: auto;
     box-sizing: border-box;
