@@ -387,6 +387,11 @@ h3.aside-text-title {
   padding: 0px 20px 0px 20px;
 }
 
+.field-search:focus {
+  outline: none;
+  border: 1px solid #b59f5b;
+}
+
 .field-search-visually-hidden {
   width: 1px;
   height: 1px;
@@ -481,10 +486,7 @@ h3.aside-text-title {
 
 .field-email:focus {
   outline: none;
-}
-
-.field-search:focus {
-  outline: none;
+  border: 1px solid #b59f5b;
 }
 
 .tags {
@@ -746,8 +748,8 @@ h3.aside-text-title {
 
 .socials-link {
   display: inline-block;
-  width: 30px;
-  height: 30px;
+  width: 24px;
+  height: 24px;
   background-repeat: no-repeat;
   background-position: center, center;
   background-size: contain;
